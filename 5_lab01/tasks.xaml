@@ -1,0 +1,17 @@
+﻿<Window x:Class="_5_lab01.tasks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="tasks" Height="381" Width="425">
+    <Grid>
+        <ListBox Name="lbOne" HorizontalAlignment="Left" Height="261" Margin="167,30,0,0" VerticalAlignment="Top" Width="240"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,30,0,0" TextWrapping="Wrap" Text="Дан массив из n чисел. Сколько элементов массива больше своих «соседей»?" VerticalAlignment="Top" Width="152"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,124,0,0" TextWrapping="Wrap" Text="Для массива из n чисел найти номер первого элемента, большего 25." VerticalAlignment="Top" Width="152"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,202,0,0" TextWrapping="Wrap" Text="В массиве из n чисел найти сумму элементов больших, чем   второй элемент этого массива." VerticalAlignment="Top" Width="152"/>
+        <TextBlock HorizontalAlignment="Left" Margin="167,9,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top"/>
+        <Button Name="firstTask"  Content="Найти*" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" Width="75" Click="firstTask_Click"/>
+        <Button Name="secondTask" Content="Найти*" HorizontalAlignment="Left" Margin="10,177,0,0" VerticalAlignment="Top" Width="75" Click="secondTask_Click"/>
+        <Button Name="thirdTask" Content="Найти*" HorizontalAlignment="Left" Margin="10,271,0,0" VerticalAlignment="Top" Width="75" Click="thirdTask_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="0,308,0,0" TextWrapping="Wrap" Text="* - открывается окно выбора файла, где записан массив чисел, далее производятся вычисления" VerticalAlignment="Top" Width="407"/>
+
+    </Grid>
+</Window>
